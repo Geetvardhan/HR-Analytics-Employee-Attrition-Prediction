@@ -1,8 +1,30 @@
-# Ignore data folder
-data/
+# Ignore Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
 
-# Ignore checkpoints
-.ipynb_checkpoints/
-
-# Ignore temporary files
+# Ignore data backup or temporary files
+*.checkpoint.csv
 *.tmp
+*.log
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore environment and package files
+env/
+venv/
+*.env
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore hidden system files
+*.swp
+*.swo
+*.~lock.*
+
+# Ignore other unnecessary files
+notebooks/.ipynb_checkpoints/
+data/.ipynb_checkpoints/
